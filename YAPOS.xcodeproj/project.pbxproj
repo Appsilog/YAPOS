@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69A7978F1B58BCC20019FE4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A7978E1B58BCC20019FE4F /* AppDelegate.swift */; };
+		69A797911B58BCC20019FE4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A797901B58BCC20019FE4F /* ViewController.swift */; };
+		69A797941B58BCC20019FE4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A797921B58BCC20019FE4F /* Main.storyboard */; };
+		69A797971B58BCC20019FE4F /* YAPOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69A797951B58BCC20019FE4F /* YAPOS.xcdatamodeld */; };
+		69A797991B58BCC20019FE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A797981B58BCC20019FE4F /* Assets.xcassets */; };
+		69A7979C1B58BCC20019FE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A7979A1B58BCC20019FE4F /* LaunchScreen.storyboard */; };
+		69A797A71B58BCC20019FE4F /* YAPOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A797A61B58BCC20019FE4F /* YAPOSTests.swift */; };
+		69A797B21B58BCC20019FE4F /* YAPOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A797B11B58BCC20019FE4F /* YAPOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69A797A31B58BCC20019FE4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A797831B58BCC10019FE4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A7978A1B58BCC10019FE4F;
+			remoteInfo = YAPOS;
+		};
+		69A797AE1B58BCC20019FE4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A797831B58BCC10019FE4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A7978A1B58BCC10019FE4F;
+			remoteInfo = YAPOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69A7978B1B58BCC20019FE4F /* YAPOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAPOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A7978E1B58BCC20019FE4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69A797901B58BCC20019FE4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69A797931B58BCC20019FE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69A797961B58BCC20019FE4F /* YAPOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YAPOS.xcdatamodel; sourceTree = "<group>"; };
+		69A797981B58BCC20019FE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69A7979B1B58BCC20019FE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69A7979D1B58BCC20019FE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A797A21B58BCC20019FE4F /* YAPOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAPOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A797A61B58BCC20019FE4F /* YAPOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAPOSTests.swift; sourceTree = "<group>"; };
+		69A797A81B58BCC20019FE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A797AD1B58BCC20019FE4F /* YAPOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAPOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A797B11B58BCC20019FE4F /* YAPOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAPOSUITests.swift; sourceTree = "<group>"; };
+		69A797B31B58BCC20019FE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69A797881B58BCC10019FE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A7979F1B58BCC20019FE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A797AA1B58BCC20019FE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69A797821B58BCC10019FE4F = {
+			isa = PBXGroup;
+			children = (
+				69A7978D1B58BCC20019FE4F /* YAPOS */,
+				69A797A51B58BCC20019FE4F /* YAPOSTests */,
+				69A797B01B58BCC20019FE4F /* YAPOSUITests */,
+				69A7978C1B58BCC20019FE4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69A7978C1B58BCC20019FE4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69A7978B1B58BCC20019FE4F /* YAPOS.app */,
+				69A797A21B58BCC20019FE4F /* YAPOSTests.xctest */,
+				69A797AD1B58BCC20019FE4F /* YAPOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69A7978D1B58BCC20019FE4F /* YAPOS */ = {
+			isa = PBXGroup;
+			children = (
+				69A7978E1B58BCC20019FE4F /* AppDelegate.swift */,
+				69A797901B58BCC20019FE4F /* ViewController.swift */,
+				69A797921B58BCC20019FE4F /* Main.storyboard */,
+				69A797981B58BCC20019FE4F /* Assets.xcassets */,
+				69A7979A1B58BCC20019FE4F /* LaunchScreen.storyboard */,
+				69A7979D1B58BCC20019FE4F /* Info.plist */,
+				69A797951B58BCC20019FE4F /* YAPOS.xcdatamodeld */,
+			);
+			path = YAPOS;
+			sourceTree = "<group>";
+		};
+		69A797A51B58BCC20019FE4F /* YAPOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				69A797A61B58BCC20019FE4F /* YAPOSTests.swift */,
+				69A797A81B58BCC20019FE4F /* Info.plist */,
+			);
+			path = YAPOSTests;
+			sourceTree = "<group>";
+		};
+		69A797B01B58BCC20019FE4F /* YAPOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69A797B11B58BCC20019FE4F /* YAPOSUITests.swift */,
+				69A797B31B58BCC20019FE4F /* Info.plist */,
+			);
+			path = YAPOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69A7978A1B58BCC10019FE4F /* YAPOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A797B61B58BCC20019FE4F /* Build configuration list for PBXNativeTarget "YAPOS" */;
+			buildPhases = (
+				69A797871B58BCC10019FE4F /* Sources */,
+				69A797881B58BCC10019FE4F /* Frameworks */,
+				69A797891B58BCC10019FE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YAPOS;
+			productName = YAPOS;
+			productReference = 69A7978B1B58BCC20019FE4F /* YAPOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69A797A11B58BCC20019FE4F /* YAPOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A797B91B58BCC20019FE4F /* Build configuration list for PBXNativeTarget "YAPOSTests" */;
+			buildPhases = (
+				69A7979E1B58BCC20019FE4F /* Sources */,
+				69A7979F1B58BCC20019FE4F /* Frameworks */,
+				69A797A01B58BCC20019FE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A797A41B58BCC20019FE4F /* PBXTargetDependency */,
+			);
+			name = YAPOSTests;
+			productName = YAPOSTests;
+			productReference = 69A797A21B58BCC20019FE4F /* YAPOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69A797AC1B58BCC20019FE4F /* YAPOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A797BC1B58BCC20019FE4F /* Build configuration list for PBXNativeTarget "YAPOSUITests" */;
+			buildPhases = (
+				69A797A91B58BCC20019FE4F /* Sources */,
+				69A797AA1B58BCC20019FE4F /* Frameworks */,
+				69A797AB1B58BCC20019FE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A797AF1B58BCC20019FE4F /* PBXTargetDependency */,
+			);
+			name = YAPOSUITests;
+			productName = YAPOSUITests;
+			productReference = 69A797AD1B58BCC20019FE4F /* YAPOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69A797831B58BCC10019FE4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Appsilog LLC";
+				TargetAttributes = {
+					69A7978A1B58BCC10019FE4F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					69A797A11B58BCC20019FE4F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 69A7978A1B58BCC10019FE4F;
+					};
+					69A797AC1B58BCC20019FE4F = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 69A7978A1B58BCC10019FE4F;
+					};
+				};
+			};
+			buildConfigurationList = 69A797861B58BCC10019FE4F /* Build configuration list for PBXProject "YAPOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69A797821B58BCC10019FE4F;
+			productRefGroup = 69A7978C1B58BCC20019FE4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69A7978A1B58BCC10019FE4F /* YAPOS */,
+				69A797A11B58BCC20019FE4F /* YAPOSTests */,
+				69A797AC1B58BCC20019FE4F /* YAPOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69A797891B58BCC10019FE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A7979C1B58BCC20019FE4F /* LaunchScreen.storyboard in Resources */,
+				69A797991B58BCC20019FE4F /* Assets.xcassets in Resources */,
+				69A797941B58BCC20019FE4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A797A01B58BCC20019FE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A797AB1B58BCC20019FE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69A797871B58BCC10019FE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A797911B58BCC20019FE4F /* ViewController.swift in Sources */,
+				69A7978F1B58BCC20019FE4F /* AppDelegate.swift in Sources */,
+				69A797971B58BCC20019FE4F /* YAPOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A7979E1B58BCC20019FE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A797A71B58BCC20019FE4F /* YAPOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A797A91B58BCC20019FE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A797B21B58BCC20019FE4F /* YAPOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69A797A41B58BCC20019FE4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A7978A1B58BCC10019FE4F /* YAPOS */;
+			targetProxy = 69A797A31B58BCC20019FE4F /* PBXContainerItemProxy */;
+		};
+		69A797AF1B58BCC20019FE4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A7978A1B58BCC10019FE4F /* YAPOS */;
+			targetProxy = 69A797AE1B58BCC20019FE4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69A797921B58BCC20019FE4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A797931B58BCC20019FE4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69A7979A1B58BCC20019FE4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A7979B1B58BCC20019FE4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69A797B41B58BCC20019FE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69A797B51B58BCC20019FE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69A797B71B58BCC20019FE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YAPOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.appsilog.YAPOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69A797B81B58BCC20019FE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YAPOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.appsilog.YAPOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69A797BA1B58BCC20019FE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YAPOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.appsilog.YAPOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YAPOS.app/YAPOS";
+			};
+			name = Debug;
+		};
+		69A797BB1B58BCC20019FE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YAPOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.appsilog.YAPOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YAPOS.app/YAPOS";
+			};
+			name = Release;
+		};
+		69A797BD1B58BCC20019FE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YAPOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.appsilog.YAPOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YAPOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		69A797BE1B58BCC20019FE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YAPOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.appsilog.YAPOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YAPOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69A797861B58BCC10019FE4F /* Build configuration list for PBXProject "YAPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A797B41B58BCC20019FE4F /* Debug */,
+				69A797B51B58BCC20019FE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A797B61B58BCC20019FE4F /* Build configuration list for PBXNativeTarget "YAPOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A797B71B58BCC20019FE4F /* Debug */,
+				69A797B81B58BCC20019FE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69A797B91B58BCC20019FE4F /* Build configuration list for PBXNativeTarget "YAPOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A797BA1B58BCC20019FE4F /* Debug */,
+				69A797BB1B58BCC20019FE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69A797BC1B58BCC20019FE4F /* Build configuration list for PBXNativeTarget "YAPOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A797BD1B58BCC20019FE4F /* Debug */,
+				69A797BE1B58BCC20019FE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69A797951B58BCC20019FE4F /* YAPOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69A797961B58BCC20019FE4F /* YAPOS.xcdatamodel */,
+			);
+			currentVersion = 69A797961B58BCC20019FE4F /* YAPOS.xcdatamodel */;
+			path = YAPOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 69A797831B58BCC10019FE4F /* Project object */;
+}
